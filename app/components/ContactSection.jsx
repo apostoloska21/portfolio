@@ -19,7 +19,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="text-white py-16 px-4">
+    <section id="contact" className="text-black dark:text-white py-16 px-4">
       <div className=" mx-2">
         <h2 className="text-4xl font-bold mb-8 text-center">Contact Me</h2>
       
@@ -33,7 +33,7 @@ const ContactSection = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="w-full p-2 bg-gray-800 rounded"
+                  className="w-full p-2 bg-gray-200 dark:bg-gray-800 rounded"
                 />
               </div>
               <div>
@@ -44,7 +44,7 @@ const ContactSection = () => {
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
                   required
-                  className="w-full p-2 bg-gray-800 rounded"
+                  className="w-full p-2 bg-gray-200 dark:bg-gray-800 rounded"
                 />
               </div>
               <div>
@@ -54,7 +54,7 @@ const ContactSection = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   required
-                  className="w-full p-2 bg-gray-800 rounded h-32"
+                  className="w-full p-2 bg-gray-200 dark:bg-gray-800 rounded h-32"
                 ></textarea>
               </div>
               <button type="submit" className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">

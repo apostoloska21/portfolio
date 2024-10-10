@@ -117,7 +117,7 @@ export const AboutSection = () => {
   };
 
   return (
-    <section id="about" className="text-white">
+    <section id="about" className="text-black dark:text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-15 xl:py-16">
         <Image
           src="/images/about-image.png"
@@ -126,7 +126,7 @@ export const AboutSection = () => {
           alt="About Me"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
           Computer Science student with a strong interest in design, data science,
           analytics, and data integration. I am actively seeking opportunities to
