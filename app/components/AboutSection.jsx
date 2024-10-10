@@ -8,15 +8,40 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2">
-                <li>C++</li>
-                <li>Java, ThymeLeaf, Spring Boot</li>
-                <li>Python, NumPy, Pandas</li>
-                <li>Data Bases, SQL, PostgreSQL</li>
-                <li>AWS</li>
-                <li>Data Visualization, Tableau </li>
-
-            </ul>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <h3 className="text-xl font-semibold mb-2">Programming Languages</h3>
+                    <ul className="list-disc pl-4">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="text-xl font-semibold mb-2">Web Technologies</h3>
+                    <ul className="list-disc pl-4">
+                        <li>ThymeLeaf</li>
+                        <li>Spring Boot</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="text-xl font-semibold mb-2">Data Science & Analytics</h3>
+                    <ul className="list-disc pl-4">
+                        <li>NumPy</li>
+                        <li>Pandas</li>
+                        <li>Data Visualization & Analytics</li>
+                        <li>Tableau</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="text-xl font-semibold mb-2">Databases & Cloud</h3>
+                    <ul className="list-disc pl-4">
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>AWS</li>
+                    </ul>
+                </div>
+            </div>
         )
     },
     {
