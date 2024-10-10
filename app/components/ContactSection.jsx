@@ -20,10 +20,10 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="text-white py-16 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className=" mx-2">
         <h2 className="text-4xl font-bold mb-8 text-center">Contact Me</h2>
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="md:w-1/2">
+      
+          <div className="md:w-1/2 mx-auto">
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="email" className="block mb-2">Email</label>
@@ -62,24 +62,9 @@ const ContactSection = () => {
               </button>
             </form>
           </div>
-          <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold mb-4">Connect with me</h3>
-            <p className="mb-4">You can also reach me through:</p>
-            <ul className="space-y-2">
-              <li>
-                <Link href="https://www.linkedin.com/in/martina-apostoloska2/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
-                  LinkedIn: Martina Apostoloska
-                </Link>
-              </li>
-              <li>
-                <a href="mailto:apostoloska21@gmail.com" className="text-blue-400 hover:underline">
-                  Email: apostoloska21@gmail.com
-                </a>
-              </li>
-            </ul>
-          </div>
+         
         </div>
-      </div>
+  
     </section>
   );
 };
