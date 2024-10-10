@@ -9,10 +9,9 @@ const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically handle the form submission,
-    // such as sending the data to a server or API
+    
     console.log({ email, subject, message });
-    // Reset form fields
+   
     setEmail('');
     setSubject('');
     setMessage('');

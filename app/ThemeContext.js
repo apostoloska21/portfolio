@@ -15,7 +15,7 @@ export const ThemeProvider = ({ children }) => {
   }, [theme]);
 
   useEffect(() => {
-    // Set initial theme to dark
+    
     document.documentElement.classList.add('dark');
   }, []);
 

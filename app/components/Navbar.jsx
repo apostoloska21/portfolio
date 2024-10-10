@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     title: "Projects",
-    path: "https://github.com/apostoloska21?tab=repositories", // Replace with your actual GitHub profile URL
+    path: "https://github.com/apostoloska21?tab=repositories", 
   },
   {
     title: "Contact",
