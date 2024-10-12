@@ -61,8 +61,8 @@ export const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-tl from-pink-500 via-purple-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </motion.button>
             <a
-              href="/resume/MArtina Apostoloska (3).pdf" 
-              download="Martina_Apostoloska_CV.pdf"
+              href="/resume/MArtina Apostoloska.pdf" 
+              download="Martina_Apostoloska.pdf"
               className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br hover:bg-slate-800 text-white border-gradient from-blue-500 vie-purple-500 to-pink-500 mt-3 inline-block"
             >
               <span className="block dark:bg-[#121212] bg-white text-black dark:text-white hover:bg-pink-50 dark:hover:bg-purple-800 rounded-full px-5 py-2">
