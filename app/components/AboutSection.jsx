@@ -117,55 +117,51 @@ export const AboutSection = () => {
   };
 
   return (
-    <section id="about" className="text-black dark:text-white">
+    <section id="about" className="text-gray-800 dark:text-white backdrop-blur-sm bg-white/30 dark:bg-gray-800/30 rounded-lg my-8 p-8 transition-all duration-300">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-15 xl:py-16">
         <Image
           src="/images/about-image.png"
           width={500}
           height={500}
           alt="About Me"
+          className="rounded-lg"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Computer Science student with a strong interest in design, data science,
-          analytics, and data integration. I am actively seeking opportunities to
-          expand my expertise in these areas. Currently, I am engaged in self
-          learning through platforms like Udemy and edX, focusing on data science,
-          data analytics, and web scraping using Python, numpy, pandas, and
-          tkinter. My goal is to leverage my skills and knowledge to contribute
-          effectively to data-driven projects and further my career in data science
-          and engineering.
+            Computer Science student with a strong interest in design, data science,
+            analytics, and data integration. I am actively seeking opportunities to
+            expand my expertise in these areas. Currently, I am engaged in self
+            learning through platforms like Udemy and edX, focusing on data science,
+            data analytics, and web scraping using Python, numpy, pandas, and
+            tkinter. My goal is to leverage my skills and knowledge to contribute
+            effectively to data-driven projects and further my career in data science
+            and engineering.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
-            
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("experience")}
               active={tab === "experience"}
             >
-              {" "}
-              Experience{" "}
+              Experience
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certification")}
               active={tab === "certification"}
             >
-              {" "}
-              Certification{" "}
+              Certification
             </TabButton>
           </div>
           <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>

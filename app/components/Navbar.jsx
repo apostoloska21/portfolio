@@ -24,11 +24,11 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed px-8 py-2 top-0 left-0 right-0 z-10 bg-[#8640BF] dark:bg-[#121212] bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-white bg-opacity-80 dark:bg-gray-800 dark:bg-opacity-80 backdrop-blur-md">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5px text-white dark:text-white font-semibold"
+          className="text-2xl md:text-5px text-gray-800 dark:text-white font-semibold"
         >
           MABYSS
         </Link>
@@ -36,14 +36,14 @@ const Navbar = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-white text-white hover:text-gray-200 dark:hover:text-gray-400"
+              className="flex items-center px-3 py-2 border rounded border-gray-800 dark:border-white text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400"
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-white text-white hover:text-gray-200 dark:hover:text-gray-400"
+              className="flex items-center px-3 py-2 border rounded border-gray-800 dark:border-white text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-400"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>
