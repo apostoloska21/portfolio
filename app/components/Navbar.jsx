@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     title: "Projects",
-    path: "https://github.com/apostoloska21?tab=repositories", 
+    path: "https://github.com/apostoloska21", 
   },
   {
     title: "Contact",
