@@ -54,28 +54,35 @@ const TAB_DATA = [
         )
     }, 
     {
-        title: "Experience",
-        id: "experience",
-        content: (
-            <ul className="list-disc pl-2">
-                <li className="mb-4">
-                    <strong>BANZAE · Internship - Hybrid</strong>
-                    <ul className="list-none mt-2">
-                        <li><strong>Role:</strong> Software Engineer</li>
-                        <li><strong>Technologies:</strong> TypeScript, React, MUI, Node.js, PostgreSQL</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Innovation Doel · Internship - Online</strong>
-                    <ul className="list-none mt-2">
-                        <li><strong>Role:</strong> Data Science Engineer</li>
-                        <li><strong>Technologies:</strong> Python, Pandas, NumPy, Jupyter Notebook</li>
-                        <li>Data cleaning and preprocessing</li>
-                    </ul>
-                </li>
-            </ul>
-        )
-    }, 
+      title: "Experience",
+      id: "experience",
+      content: (
+          <ul className="list-disc pl-2">
+              <li className="mb-4">
+                  <strong>YUSO · Contractor - Hybrid</strong>
+                  <ul className="list-none mt-2">
+                      <li><strong>Role:</strong> Junior Data Scientist</li>
+                      <li><strong>Technologies:</strong> Python, NumPy, Pandas, scikit-learn, Matplotlib, Plotly</li>
+                  </ul>
+              </li>
+              <li className="mb-4">
+                  <strong>BANZAE · Internship - Hybrid</strong>
+                  <ul className="list-none mt-2">
+                      <li><strong>Role:</strong> Software Engineer</li>
+                      <li><strong>Technologies:</strong> TypeScript, React, MUI, Node.js, PostgreSQL</li>
+                  </ul>
+              </li>
+              <li>
+                  <strong>Innovation Doel · Internship - Online</strong>
+                  <ul className="list-none mt-2">
+                      <li><strong>Role:</strong> Data Science Engineer</li>
+                      <li><strong>Technologies:</strong> Python, Pandas, NumPy, Jupyter Notebook</li>
+                      <li>Data cleaning and preprocessing</li>
+                  </ul>
+              </li>
+          </ul>
+      )
+  },  
     {
         title: "Certification",
         id: "certification",
